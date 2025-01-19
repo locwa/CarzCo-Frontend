@@ -9,5 +9,8 @@
     <title>CarzCo | Exotic Car Rental Website</title>
 </head>
 <body>
+    <nav>
+        <img src="assets/logos/logo_main.svg" class="logo">
+    </nav>
 </body>
 </html>
