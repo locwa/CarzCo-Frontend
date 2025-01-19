@@ -6,8 +6,7 @@
                 <p class="f-color-white f-size-md f-weight-light margin-small">Discover our fleet</p>
             </div>
             <div class="hero-spacer"></div>
-            <input type="text" name="" id="">
+            <input type="text" name="vehicle-search" id="vehicleSearch" class="vehicle-search f-size-sm f-color-white" placeholder="Search by Make or Model" >
         </div>
     </main>
-
 </x-layout>

@@ -1,14 +1,24 @@
 .hero{
     max-width: 100%;
-    height: 73vh;
-    padding: 1.5rem;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/resources/images/hero_bg.avif");
+    height: 66vh;
+    padding: 2.5rem;
+    background: linear-gradient(#000000aa, #000000aa), url("/resources/images/hero_bg.avif");
     background-size: cover;
     background-position-y: 50%;
     text-align: center;
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 .hero-spacer{
     flex-grow: 2;
+}
+.vehicle-search{
+    padding: 1.5rem;
+    width: 20rem;
+    margin: auto auto 2rem auto;
+    background-color: #ffffff11;
+    border: 4px solid #ffffff;
+    border-radius: 20rem;
+    font-weight: 200;
 }
