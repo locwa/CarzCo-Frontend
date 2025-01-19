@@ -18,6 +18,9 @@
 .f-size-xl{
     font-size: 4rem;
 }
+.f-size-lg{
+    font-size: 3rem;
+}
 .f-size-md{
     font-size: 1.3em;
 }
@@ -30,9 +33,34 @@
     font-weight: 200;
 }
 
-/* Margin heights */
-.margin-small{
-    margin: 0.5rem 0;
+/* Margin top heights */
+.mt-lg{
+    margin-top: 3.5rem;
+}
+.mt-md{
+    margin-top: 1.5rem;
+}
+.mt-sm{
+    margin-top: 0.5rem;
+}
+
+/* Margin bottom heights */
+.mb-lg{
+    margin-bottom: 3.5rem;
+}
+.mb-md{
+    margin-bottom: 1.5rem;
+}
+.mb-sm{
+    margin-bottom: 0.5rem;
+}
+
+/* Divider */
+hr{
+    border: 0.7px solid #000000;
+    border-radius: 20px;
+    width: 70%;
+    margin: auto;
 }
 
 /* Navigation Bar */
