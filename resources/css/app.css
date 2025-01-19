@@ -1,7 +1,9 @@
 /* Layout */
 @import url("home.css");
+@import url("../fonts/fonts.css");
 *{
     margin: 0;
+    font-family: "PP Right Grotesk";
 }
 
 /* Font Colors */
@@ -14,10 +16,15 @@
     font-size: 4rem;
 }
 .f-size-md{
-    font-size: 2rem;
+    font-size: 1.3em;
 }
 .f-size-sm{
     font-size: 1rem;
+}
+
+/* Font Weights */
+.f-weight-light{
+    font-weight: 200;
 }
 
 /* Navigation Bar */
@@ -36,6 +43,6 @@ nav{
     align-items: center;
 }
 .nav-links > *{
-    margin-right: 1rem;
+    margin-right: 1.3rem;
     text-decoration: none;
 }

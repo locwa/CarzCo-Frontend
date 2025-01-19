@@ -10,11 +10,11 @@
 </head>
 <body>
     <nav>
-        <img src="assets/logos/logo_main.svg" class="logo">
+        <img src="logo_main.svg" class="logo">
         <div class="nav-links">
-            <a href="./fleet" class="f-color-white">OUR FLEET</a>
-            <a href="./services" class="f-color-white">SERVICES</a>
-            <a href="./about" class="f-color-white">ABOUT</a>
+            <a href="./fleet" class="f-color-white f-size-md">Our Fleet</a>
+            <a href="./services" class="f-color-white f-size-md">Services</a>
+            <a href="./about" class="f-color-white f-size-md">About</a>
         </div>
     </nav>
     {{ $slot }}

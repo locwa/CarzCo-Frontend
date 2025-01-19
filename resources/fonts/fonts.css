@@ -1,0 +1,144 @@
+@font-face {
+    font-family: 'PP Right Grotesk Compact';
+    src: url('right-grotesk/PPRightGrotesk-CompactBlack.woff2') format('woff2'),
+        url('right-grotesk/PPRightGrotesk-CompactBlack.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PP Right Grotesk Compact Dark';
+    src: url('right-grotesk/PPRightGrotesk-CompactDark.woff2') format('woff2'),
+        url('right-grotesk/PPRightGrotesk-CompactDark.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PP Right Grotesk Compact Fine';
+    src: url('right-grotesk/PPRightGrotesk-CompactFineItalic.woff2') format('woff2'),
+        url('right-grotesk/PPRightGrotesk-CompactFineItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PP Right Grotesk';
+    src: url('right-grotesk/PPRightGrotesk-Medium.woff2') format('woff2'),
+        url('right-grotesk/PPRightGrotesk-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PP Right Grotesk';
+    src: url('right-grotesk/PPRightGrotesk-Light.woff2') format('woff2'),
+        url('right-grotesk/PPRightGrotesk-Light.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PP Right Grotesk';
+    src: url('right-grotesk/PPRightGrotesk-MediumItalic.woff2') format('woff2'),
+        url('right-grotesk/PPRightGrotesk-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PP Right Grotesk Narrow';
+    src: url('right-grotesk/PPRightGrotesk-NarrowLight.woff2') format('woff2'),
+        url('right-grotesk/PPRightGrotesk-NarrowLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PP Right Grotesk Spatial';
+    src: url('right-grotesk/PPRightGrotesk-SpatialBlackItalic.woff2') format('woff2'),
+        url('right-grotesk/PPRightGrotesk-SpatialBlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PP Right Grotesk Spatial Fine';
+    src: url('right-grotesk/PPRightGrotesk-SpatialFine.woff2') format('woff2'),
+        url('right-grotesk/PPRightGrotesk-SpatialFine.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PP Right Grotesk Spatial';
+    src: url('right-grotesk/PPRightGrotesk-SpatialBlack.woff2') format('woff2'),
+        url('right-grotesk/PPRightGrotesk-SpatialBlack.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PP Right Grotesk Wide';
+    src: url('right-grotesk/PPRightGrotesk-WideMediumItalic.woff2') format('woff2'),
+        url('right-grotesk/PPRightGrotesk-WideMediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PP Right Grotesk Tall Fine';
+    src: url('right-grotesk/PPRightGrotesk-TallFine.woff2') format('woff2'),
+        url('right-grotesk/PPRightGrotesk-TallFine.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PP Right Grotesk Wide';
+    src: url('right-grotesk/PPRightGrotesk-WideMedium.woff2') format('woff2'),
+        url('right-grotesk/PPRightGrotesk-WideMedium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PP Right Grotesk Wide';
+    src: url('right-grotesk/PPRightGrotesk-WideBlack.woff2') format('woff2'),
+        url('right-grotesk/PPRightGrotesk-WideBlack.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PP Right Grotesk Tight';
+    src: url('right-grotesk/PPRightGrotesk-TightMedium.woff2') format('woff2'),
+        url('right-grotesk/PPRightGrotesk-TightMedium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PP Right Grotesk Tall';
+    src: url('right-grotesk/PPRightGrotesk-TallRegular.woff2') format('woff2'),
+        url('right-grotesk/PPRightGrotesk-TallRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
