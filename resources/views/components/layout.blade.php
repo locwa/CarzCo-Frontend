@@ -11,6 +11,11 @@
 <body>
     <nav>
         <img src="assets/logos/logo_main.svg" class="logo">
+        <div class="nav-links">
+            <a href="./fleet">OUR FLEET</a>
+            <a href="./services">SERVICES</a>
+            <a href="./about">ABOUT</a>
+        </div>
     </nav>
 </body>
 </html>
