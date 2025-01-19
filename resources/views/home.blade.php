@@ -1,3 +1,11 @@
 <x-layout>
-    <img src="assets/hero_bg.jpg" class="hero-bg" alt="hero background">
+    <main>
+        <div class="hero">
+            <div class="heading">
+                <h1 class="f-color-white f-size-xl">Rent Exotic and Luxury Cars</h1>
+                <p class="f-color-white f-size-sm">Discover our fleet</p>
+            </div>
+        </div>
+    </main>
+
 </x-layout>

@@ -12,9 +12,9 @@
     <nav>
         <img src="assets/logos/logo_main.svg" class="logo">
         <div class="nav-links">
-            <a href="./fleet">OUR FLEET</a>
-            <a href="./services">SERVICES</a>
-            <a href="./about">ABOUT</a>
+            <a href="./fleet" class="f-color-white">OUR FLEET</a>
+            <a href="./services" class="f-color-white">SERVICES</a>
+            <a href="./about" class="f-color-white">ABOUT</a>
         </div>
     </nav>
     {{ $slot }}

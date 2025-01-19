@@ -4,6 +4,22 @@
     margin: 0;
 }
 
+/* Font Colors */
+.f-color-white{
+    color: #ffffff;
+}
+
+/* Font Sizes */
+.f-size-xl{
+    font-size: 4rem;
+}
+.f-size-md{
+    font-size: 2rem;
+}
+.f-size-sm{
+    font-size: 1rem;
+}
+
 /* Navigation Bar */
 nav{
     background-color: #2d3748;
@@ -22,5 +38,4 @@ nav{
 .nav-links > *{
     margin-right: 1rem;
     text-decoration: none;
-    color: #ffffff;
 }
