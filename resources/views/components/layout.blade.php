@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     @vite(['resources/css/app.css'])
     <title>CarzCo | Exotic Car Rental Website</title>
+    <link rel="shortcut icon" href="favicon.svg" type="image/x-icon">
 </head>
 <body>
     <nav>
