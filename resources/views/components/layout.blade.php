@@ -17,5 +17,6 @@
             <a href="./about">ABOUT</a>
         </div>
     </nav>
+    {{ $slot }}
 </body>
 </html>
