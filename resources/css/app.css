@@ -55,6 +55,22 @@
     margin-bottom: 0.5rem;
 }
 
+/* Margin left heights */
+.ml-xl{
+    margin-left: 4.5rem;
+}
+.ml-lg{
+    margin-left: 3.5rem;
+}
+.ml-md{
+    margin-left: 1.5rem;
+}
+.ml-sm{
+    margin-left: 0.5rem;
+}
+
+
+
 /* Divider */
 hr{
     border: 0.7px solid #000000;

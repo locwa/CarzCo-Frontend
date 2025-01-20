@@ -2,7 +2,7 @@
     max-width: 100%;
     height: 66vh;
     padding: 2.5rem;
-    background: linear-gradient(#000000aa, #000000aa), url("/storage/app/public/images/hero_bg.avif");
+    background: linear-gradient(#000000aa, #000000aa), url("/public/images/hero_bg.avif");
     background-size: cover;
     background-position-y: 50%;
     text-align: center;
@@ -25,4 +25,8 @@
 main{
     text-align: center;
     padding: 1rem;
+}
+.home-brand-logos{
+    height: 15rem;
+    width: 15rem;
 }
