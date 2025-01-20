@@ -11,7 +11,7 @@
 </head>
 <body>
     <nav>
-        <a href="./"><img src="./storage/images/logo_main.svg" class="logo"></a>
+        <a href="./"><img src="./images/logo_main.svg" class="logo"></a>
         <div class="nav-links">
             <a href="./fleet" class="f-color-white f-size-md">Our Fleet</a>
             <a href="./services" class="f-color-white f-size-md">Services</a>
