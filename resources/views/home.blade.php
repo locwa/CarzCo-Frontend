@@ -11,5 +11,17 @@
         <h1 class="f-size-lg mt-lg">At CarzCo, We Provide Top Quality Exotic and Luxury Cars for Rent</h1>
         <p class="f-size-md f-weight-light mt-sm">We always provide a variety of Exotic and Luxury cars that are in Top Shape and a Reasonable Price</p>
         <hr class="mt-lg mb-lg">
+        <div class="brands">
+            <h1 class="f-size-lg mt-lg">Popular Exotic and Luxury Car Brands</h1>
+            <p class="f-size-md f-weight-light mt-sm mb-lg">Discover some of the most popular brands that we carry</p>
+            <div class="brand-logos">
+                <img src="./storage/images/brand_logos/Rolls_Royce.svg" alt="Rolls-Royce Logo">
+                <img src="./storage/images/brand_logos/Ferrari.svg" alt="Ferrari Logo">
+                <img src="./storage/images/brand_logos/Bentley.svg" alt="Bentley Logo">
+                <img src="./storage/images/brand_logos/Lamborghini.svg" alt="Lamborghini Logo">
+                <img src="./storage/images/brand_logos/McLaren.svg" alt="Mclaren Logo">
+                <img src="./storage/images/brand_logos/Porsche.svg" alt="Porsche Logo">
+            </div>
+        </div>
     </main>
 </x-layout>
