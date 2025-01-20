@@ -35,7 +35,7 @@
                 <a href="" class="home-brand-logos">
                     <img src="./images/brand_logos/Porsche.svg" alt="Porsche Logo" class="home-brand-logos mb-lg ml-xl">
                 </a>
-                <hr class="mt-lg">
+                <hr class="mb-lg">
             </div>
         </div>
     </main>
