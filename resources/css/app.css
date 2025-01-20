@@ -1,6 +1,6 @@
 /* Layout */
 @import url("home.css");
-@import url("../fonts/fonts.css");
+@import url("fonts.css");
 *{
     margin: 0;
     font-family: "PP Right Grotesk";
