@@ -18,27 +18,45 @@
             <p class="f-size-md f-weight-light mt-sm mb-lg">Discover some of the most popular brands that we carry</p>
             <div class="brand-logos">
                 <a href="" class="home-brand-logos">
-                    <img src="./images/brand_logos/Rolls_Royce.svg" alt="Rolls-Royce Logo" class="home-brand-logos mb-lg">
+                    <img src="./images/brand_logos/Rolls_Royce.svg" alt="Rolls-Royce Logo" class="logo-xl mb-lg">
                 </a>
                 <a href="" class="home-brand-logos">
-                    <img src="./images/brand_logos/Ferrari.svg" alt="Ferrari Logo" class="home-brand-logos mb-lg ml-xl">
-                </a>
-                <br>
-                <a href="" class="home-brand-logos">
-                    <img src="./images/brand_logos/Bentley.svg" alt="Bentley Logo" class="home-brand-logos mb-lg">
-                </a>
-                <a href="" class="home-brand-logos">
-                    <img src="./images/brand_logos/Lamborghini.svg" alt="Lamborghini Logo" class="home-brand-logos mb-lg ml-xl">
+                    <img src="./images/brand_logos/Ferrari.svg" alt="Ferrari Logo" class="logo-xl mb-lg ml-xl">
                 </a>
                 <br>
                 <a href="" class="home-brand-logos">
-                    <img src="./images/brand_logos/McLaren.svg" alt="Mclaren Logo" class="home-brand-logos mb-lg">
+                    <img src="./images/brand_logos/Bentley.svg" alt="Bentley Logo" class="logo-xl mb-lg">
                 </a>
                 <a href="" class="home-brand-logos">
-                    <img src="./images/brand_logos/Porsche.svg" alt="Porsche Logo" class="home-brand-logos mb-lg ml-xl">
+                    <img src="./images/brand_logos/Lamborghini.svg" alt="Lamborghini Logo" class="logo-xl mb-lg ml-xl">
+                </a>
+                <br>
+                <a href="" class="home-brand-logos">
+                    <img src="./images/brand_logos/McLaren.svg" alt="Mclaren Logo" class="logo-xl mb-lg">
+                </a>
+                <a href="" class="home-brand-logos">
+                    <img src="./images/brand_logos/Porsche.svg" alt="Porsche Logo" class="logo-xl mb-lg ml-xl">
                 </a>
             </div>
         </section>
         <hr class="mb-lg">
+        <section class="services-container">
+            <h1 class="f-size-lg mt-sm mb-lg">Services That We Offer</h1>
+            <div class="services">
+                <a href="./">
+                    <img src="./images/service_graphics/chauffeur.svg" alt="chauffeur logo" class="logo-md mb-sm">
+                    <h3>Chauffeur Services</h3>
+                </a>
+                <a href="./">
+                    <img src="./images/service_graphics/reservation.svg" alt="reservation logo" class="logo-md mb-sm">
+                    <h3>Reservations</h3>
+                </a>
+                <a href="./">
+                    <img src="./images/service_graphics/delivery.svg" alt="delivery logo" class="logo-md mb-sm">
+                    <h3>Delivery Services</h3>
+                </a>
+            </div>
+        </section>
+        <hr class="mt-lg mb-lg">
     </main>
 </x-layout>

@@ -26,7 +26,8 @@ main{
     text-align: center;
     padding: 1rem;
 }
-.home-brand-logos{
-    height: 15rem;
-    width: 15rem;
+.services{
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
 }
