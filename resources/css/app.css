@@ -111,6 +111,9 @@ a{
 .p-lg{
     padding: 2rem;
 }
+.p-xl{
+    padding: 3rem;
+}
 
 /* Navigation Bar */
 nav{
