@@ -69,6 +69,11 @@
     margin-left: 0.5rem;
 }
 
+/* Margins */
+.m-none{
+    margin: 0;
+}
+
 /* SVG sizes  */
 .logo-xl{
     height: 15rem;
@@ -92,6 +97,19 @@ hr{
 a{
     color: #000000;
     text-decoration: none;
+}
+
+/* Background Colors */
+.bg-black{
+    background-color: #000000;
+}
+
+/* Padding */
+.p-md{
+    padding: 1rem;
+}
+.p-lg{
+    padding: 2rem;
 }
 
 /* Navigation Bar */
