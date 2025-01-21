@@ -57,7 +57,11 @@
             </div>
         </section>
         <section class="bg-black mt-lg f-color-white p-lg">
-            <h1 class="f-size-lg">CarzCo Membership</h1>
+            <h1 class="f-size-lg mb-md">CarzCo Membership</h1>
+            <p class="f-weight-light f-size-md">
+                CarzCo membership provides premium perks that can be improve your experience with us, as well as our partners.
+                These perks include discounts, expedited or tailored services, and occasional free products and services.
+            </p>
         </section>
     </main>
 </x-layout>
