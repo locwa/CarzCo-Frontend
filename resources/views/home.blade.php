@@ -18,21 +18,20 @@
             <p class="f-size-md f-weight-light mt-sm mb-lg">Discover some of the most popular brands that we carry</p>
             <div class="brand-logos">
                 <a href="" class="home-brand-logos">
-                    <img src="./images/brand_logos/Rolls_Royce.svg" alt="Rolls-Royce Logo" class="logo-xl mb-lg">
+                    <img src="./images/brand_logos/Rolls_Royce.svg" alt="Rolls-Royce Logo" class="logo-xl mb-lg ml-xl">
                 </a>
                 <a href="" class="home-brand-logos">
                     <img src="./images/brand_logos/Ferrari.svg" alt="Ferrari Logo" class="logo-xl mb-lg ml-xl">
                 </a>
-                <br>
                 <a href="" class="home-brand-logos">
-                    <img src="./images/brand_logos/Bentley.svg" alt="Bentley Logo" class="logo-xl mb-lg">
+                    <img src="./images/brand_logos/Bentley.svg" alt="Bentley Logo" class="logo-xl mb-lg ml-xl">
                 </a>
+                <br>
                 <a href="" class="home-brand-logos">
                     <img src="./images/brand_logos/Lamborghini.svg" alt="Lamborghini Logo" class="logo-xl mb-lg ml-xl">
                 </a>
-                <br>
                 <a href="" class="home-brand-logos">
-                    <img src="./images/brand_logos/McLaren.svg" alt="Mclaren Logo" class="logo-xl mb-lg">
+                    <img src="./images/brand_logos/McLaren.svg" alt="Mclaren Logo" class="logo-xl mb-lg ml-xl">
                 </a>
                 <a href="" class="home-brand-logos">
                     <img src="./images/brand_logos/Porsche.svg" alt="Porsche Logo" class="logo-xl mb-lg ml-xl">
