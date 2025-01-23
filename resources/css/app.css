@@ -27,6 +27,9 @@
 .f-size-sm{
     font-size: 1rem;
 }
+.f-size-xs{
+    font-size: 0.6rem;
+}
 
 /* Font Weights */
 .f-weight-light{
@@ -149,4 +152,27 @@ nav{
 .nav-links > *{
     margin-right: 1.3rem;
     text-decoration: none;
+}
+
+/* Footer */
+footer{
+    background-color: #2d3748;
+    padding: 4rem 5rem 2rem;
+    text-align: center;
+}
+.footer-main{
+    height: 90%;
+    display: flex;
+    align-items: center;
+    gap: 35rem;
+}
+.footer-nav-links{
+    display: flex;
+    gap: 6rem;
+}
+.footer-columns{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 0.5rem;
 }
