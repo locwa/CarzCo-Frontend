@@ -42,7 +42,6 @@
                     <h6 class="f-size-md f-color-white mb-sm">Services</h6>
                     <a href="./" class="f-size-md f-weight-light f-color-white">Chauffeur Service</a>
                     <a href="./" class="f-size-md f-weight-light f-color-white">Reservations</a>
-                    <a href="./" class="f-size-md f-weight-light f-color-white">Weddings</a>
                     <a href="./" class="f-size-md f-weight-light f-color-white">Events</a>
                     <a href="./" class="f-size-md f-weight-light f-color-white">CarzCo Memberships</a>
                 </div>
