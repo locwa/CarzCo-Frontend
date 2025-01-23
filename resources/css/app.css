@@ -115,6 +115,22 @@ a{
     padding: 3rem;
 }
 
+/* Button defaults*/
+button{
+    border: none;
+    border-radius: 20px;
+}
+
+/* Button height */
+.button-h-md{
+    height: 3rem;
+}
+
+/* Button Width */
+.button-w-lg{
+    width: 10rem;
+}
+
 /* Navigation Bar */
 nav{
     background-color: #2d3748;
