@@ -1,12 +1,21 @@
 /* Layout */
 @import url("home.css");
 @import url("fonts.css");
+@import url('about.css');
 *{
     margin: 0;
     font-family: "PP Right Grotesk";
 }
 ::placeholder{
     color: #ffffff;
+}
+
+/* Text alignment*/
+.text-align-center{
+    text-align: center;
+}
+.text-align-left{
+    text-align: left;
 }
 
 /* Font Colors */

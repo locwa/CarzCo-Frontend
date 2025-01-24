@@ -27,7 +27,7 @@
                     <h6 class="f-size-md f-color-white mb-sm">CarzCo</h6>
                     <a href="./" class="f-size-md f-weight-light f-color-white">Our Fleet</a>
                     <a href="./" class="f-size-md f-weight-light f-color-white">Services</a>
-                    <a href="./" class="f-size-md f-weight-light f-color-white">About Us</a>
+                    <a href="./about" class="f-size-md f-weight-light f-color-white">About Us</a>
                     <a href="./" class="f-size-md f-weight-light f-color-white">Contact Us</a>
                 </div>
                 <div class="footer-columns">
@@ -47,7 +47,7 @@
                 </div>
             </div>
         </div>
-        <p class="f-size-xs f-color-white">Copyright 2025, CarzCo LLC.</p>
+        <p class="f-size-xs f-color-white">Copyright statement here</p>
     </footer>
 </body>
 </html>
