@@ -28,7 +28,7 @@
                     <a href="./" class="f-size-md f-weight-light f-color-white">Our Fleet</a>
                     <a href="./" class="f-size-md f-weight-light f-color-white">Services</a>
                     <a href="./about" class="f-size-md f-weight-light f-color-white">About Us</a>
-                    <a href="./" class="f-size-md f-weight-light f-color-white">Contact Us</a>
+                    <a href="./contact" class="f-size-md f-weight-light f-color-white">Contact Us</a>
                 </div>
                 <div class="footer-columns">
                     <h6 class="f-size-md f-color-white mb-sm">Popular Brands</h6>

@@ -14,6 +14,10 @@ Route::get('/fleet', function () {
     return view('fleet');
 });
 
-Route::get('services', function () {
+Route::get('/services', function () {
     return view('services');
+});
+
+Route::get('contact', function () {
+    return view('contact');
 });
