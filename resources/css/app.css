@@ -9,6 +9,37 @@
 ::placeholder{
     color: #ffffff;
 }
+/* Tile containers */
+.tile-container{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+/* Container height */
+.container-height-md{
+    height: 12rem;
+}
+
+/* Container Width */
+.container-width-lg{
+    width: 18rem;
+}
+
+/* Border */
+.has-border{
+    border: 5px solid;
+}
+
+/* Border color */
+.border-black{
+    border-color: #000000;
+}
+
+/* Border rounding */
+.border-rounded{
+    border-radius: 20px;
+}
 
 /* Text alignment*/
 .text-align-center{
