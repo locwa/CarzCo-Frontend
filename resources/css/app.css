@@ -2,6 +2,7 @@
 @import url("home.css");
 @import url("fonts.css");
 @import url('about.css');
+@import url('contact.css');
 *{
     margin: 0;
     font-family: "PP Right Grotesk";
@@ -17,11 +18,23 @@
 }
 
 /* Container height */
+.container-height-xl{
+    height: 36rem;
+}
+.container-height-lg{
+    height: 24rem;
+}
 .container-height-md{
     height: 12rem;
 }
 
 /* Container Width */
+.container-width-xxl{
+    width: 72rem;
+}
+.container-width-xl{
+    width: 24rem;
+}
 .container-width-lg{
     width: 18rem;
 }
@@ -115,6 +128,9 @@
 /* Margins */
 .m-none{
     margin: 0;
+}
+.m-lg{
+    margin: 3.5rem;
 }
 
 /* SVG sizes  */
