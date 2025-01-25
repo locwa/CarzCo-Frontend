@@ -10,41 +10,49 @@
         </p>
         <hr class="mt-lg mb-lg">
         <h4 class="f-size-lg mb-md">Our Mission:</h4>
-        <p class="f-size-md f-weight-light mb-md">To elevate the driving experience beyond the ordinary. We strive to:</p>
-        <ul>
-            <li class="f-size-md f-weight-light">
-                <strong>Offer unparalleled selection</strong>: From sleek sports cars and powerful SUVs to elegant
-                convertibles and iconic classics, our fleet caters to every discerning taste.
-            </li>
-            <li class="f-size-md f-weight-light">
-                <strong>Provide exceptional service</strong>: Our dedicated team is committed to ensuring a seamless and
-                enjoyable rental experience, from personalized consultations to prompt and professional delivery.
-            </li>
-            <li class="f-size-md f-weight-light">
-                <strong>Guarantee complete peace of mind</strong>: We prioritize safety and reliability, offering
-                comprehensive insurance options and 24/7 roadside assistance.
-            </li>
-            <li class="f-size-md f-weight-light">
-                <strong>Foster a community of enthusiasts</strong>: We connect like-minded individuals who share a passion
-                for automotive excellence.
-            </li>
-        </ul>
+        <p class="f-size-md f-weight-light mb-lg">To elevate the driving experience beyond the ordinary. We strive to:</p>
+        <div class="tile-container mt-md mb-md">
+            <x-containers height="md" width="lg">
+                <h4 class="f-size-md mb-md">Offer unparalleled selection</h4>
+                <p class="f-size-md f-weight-light">From sleek sports cars and powerful SUVs to elegant
+                    convertibles and iconic classics, our fleet caters to every discerning taste.</p>
+            </x-containers>
+            <x-containers height="md" width="lg">
+                <h4 class="f-size-md mb-md">Provide exceptional service</h4>
+                <p class="f-size-md f-weight-light">Our dedicated team is committed to ensuring a seamless and
+                    enjoyable rental experience, from personalized consultations to prompt and professional delivery.</p>
+            </x-containers>
+            <x-containers height="md" width="lg">
+                <h4 class="f-size-md mb-md">Guarantee complete peace of mind</h4>
+                <p class="f-size-md f-weight-light">We prioritize safety and reliability, offering
+                    comprehensive insurance options and 24/7 roadside assistance.</p>
+            </x-containers>
+            <x-containers height="md" width="lg">
+                <h4 class="f-size-md mb-md">Foster a community of enthusiasts</h4>
+                <p class="f-size-md f-weight-light">We connect like-minded individuals who share a passion
+                    for automotive excellence.</p>
+            </x-containers>
+        </div>
         <hr class="mt-lg mb-lg">
-        <h4 class="f-size-lg mb-md">Why Choose CarzCo:</h4>
-        <ul>
-            <li class="f-size-md f-weight-light">
-                <strong>Unforgettable memories</strong>: Create lasting memories with unforgettable driving experiences.
-            </li>
-            <li class="f-size-md f-weight-light">
-                <strong>Impeccable vehicles</strong>: Drive meticulously maintained and impeccably presented vehicles.
-            </li>
-            <li class="f-size-md f-weight-light">
-                <strong>Personalized service</strong>: Enjoy a tailored experience with dedicated customer support.
-            </li>
-            <li class="f-size-md f-weight-light">
-                <strong>Unbeatable value</strong>: Experience the thrill of exotic car ownership without the long-term
-                commitment.
-            </li>
-        </ul>
+        <h4 class="f-size-lg mb-lg">Why Choose CarzCo:</h4>
+        <div class="tile-container mt-md mb-md">
+            <x-containers height="md" width="lg">
+                <h4 class="f-size-md mb-md">Unforgettable memories</h4>
+                <p class="f-size-md f-weight-light">Create lasting memories with unforgettable driving experiences.</p>
+            </x-containers>
+            <x-containers height="md" width="lg">
+                <h4 class="f-size-md mb-md">Impeccable vehicles</h4>
+                <p class="f-size-md f-weight-light">Drive meticulously maintained and impeccably presented vehicles.</p>
+            </x-containers>
+            <x-containers height="md" width="lg">
+                <h4 class="f-size-md mb-md">Personalized service</h4>
+                <p class="f-size-md f-weight-light">Enjoy a tailored experience with dedicated customer support.</p>
+            </x-containers>
+            <x-containers height="md" width="lg">
+                <h4 class="f-size-md mb-md">Unbeatable value</h4>
+                <p class="f-size-md f-weight-light">Experience the thrill of exotic car ownership without the long-term
+                    commitment.</p>
+            </x-containers>
+        </div>
     </main>
 </x-layout>
