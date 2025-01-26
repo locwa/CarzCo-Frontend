@@ -1,0 +1,18 @@
+.service-container, .service-container-alt, .service-container-blk{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 30vh;
+    padding: 3rem;
+}
+.service-container{
+    text-align: left;
+}
+.service-container-alt{
+    background-color: #494848;
+    text-align: end;
+}
+.service-container-blk{
+    background-color: #000000;
+    text-align: end;
+}
