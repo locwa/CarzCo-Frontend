@@ -32,6 +32,6 @@
         </div>
         <label for="message" class="mb-sm f-weight-light">Message</label>
         <textarea name="message" class="input-h-xl input-w-xl p-sm has-border b-width-sm border-rounded"></textarea>
-        <x-buttons type="submit" width="lg" class="mt-md mb-sm bg-black f-color-white">Send</x-buttons>
+        <x-buttons type="submit" width="lg" class="mt-md mb-sm button-black">Send</x-buttons>
     </form>
 </x-containers>
