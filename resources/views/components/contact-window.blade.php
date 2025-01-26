@@ -18,7 +18,7 @@
         <h1 class="mb-md">{{ $header }}</h1>
         <div class="info-field-container mb-md mt-sm">
             <div class="info-field">
-                <label for="name" class="mb-sf-weight-lightm f-weight-light">Name</label>
+                <label for="name" class="mb-sm f-weight-light">Name</label>
                 <input type="text" name="name" id="" class="input-h-md input-w-md has-border b-width-sm border-rounded">
             </div>
             <div class="info-field">
