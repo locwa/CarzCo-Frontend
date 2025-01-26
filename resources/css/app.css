@@ -204,6 +204,9 @@ a{
 .bg-black{
     background-color: #000000;
 }
+.bg-white{
+    background-color: #ffffff;
+}
 
 /* Padding */
 .p-sm{
