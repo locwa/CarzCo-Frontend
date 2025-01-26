@@ -19,10 +19,10 @@
 
 /* Container height */
 .container-height-xl{
-    height: 36rem;
+    height: 32rem;
 }
 .container-height-lg{
-    height: 24rem;
+    height: 28rem;
 }
 .container-height-md{
     height: 12rem;
@@ -52,6 +52,11 @@
 /* Border rounding */
 .border-rounded{
     border-radius: 20px;
+}
+
+/* Border width */
+.b-width-sm{
+    border-width: 2px;
 }
 
 /* Text alignment*/
@@ -129,6 +134,9 @@
 .m-none{
     margin: 0;
 }
+.m-md{
+    margin: 2.5rem;
+}
 .m-lg{
     margin: 3.5rem;
 }
@@ -143,6 +151,21 @@
     width: 7rem;
 }
 
+/* Input height */
+.input-h-xl{
+    height: 6rem;
+}
+.input-h-md{
+    height: 2rem;
+}
+
+/* Input width */
+.input-w-xl{
+    width: 48rem;
+}
+.input-w-md{
+    width: 15rem;
+}
 
 /* Divider */
 hr{
@@ -164,6 +187,9 @@ a{
 }
 
 /* Padding */
+.p-sm{
+    padding: 0.5rem;
+}
 .p-md{
     padding: 1rem;
 }
