@@ -17,23 +17,23 @@
             <h1 class="f-size-lg mt-lg">Popular Exotic and Luxury Car Brands</h1>
             <p class="f-size-md f-weight-light mt-sm mb-lg">Discover some of the most popular brands that we carry</p>
             <div class="brand-logos">
-                <a href="" class="home-brand-logos">
+                <a href="./fleet/rolls-royce" class="home-brand-logos">
                     <img src="./images/brand_logos/Rolls_Royce.svg" alt="Rolls-Royce Logo" class="logo-xl mb-lg ml-xl">
                 </a>
-                <a href="" class="home-brand-logos">
+                <a href="./fleet/ferrari" class="home-brand-logos">
                     <img src="./images/brand_logos/Ferrari.svg" alt="Ferrari Logo" class="logo-xl mb-lg ml-xl">
                 </a>
-                <a href="" class="home-brand-logos">
+                <a href="./fleet/bentley" class="home-brand-logos">
                     <img src="./images/brand_logos/Bentley.svg" alt="Bentley Logo" class="logo-xl mb-lg ml-xl">
                 </a>
                 <br>
-                <a href="" class="home-brand-logos">
+                <a href="./fleet/lamborghini" class="home-brand-logos">
                     <img src="./images/brand_logos/Lamborghini.svg" alt="Lamborghini Logo" class="logo-xl mb-lg ml-xl">
                 </a>
-                <a href="" class="home-brand-logos">
+                <a href="./fleet/mclaren" class="home-brand-logos">
                     <img src="./images/brand_logos/McLaren.svg" alt="Mclaren Logo" class="logo-xl mb-lg ml-xl">
                 </a>
-                <a href="" class="home-brand-logos">
+                <a href="./fleet/porsche" class="home-brand-logos">
                     <img src="./images/brand_logos/Porsche.svg" alt="Porsche Logo" class="logo-xl mb-lg ml-xl">
                 </a>
             </div>
@@ -42,15 +42,15 @@
         <section class="services-container p-md">
             <h1 class="f-size-lg mt-sm mb-lg">Services That We Offer</h1>
             <div class="services">
-                <a href="./">
+                <a href="./contact">
                     <img src="./images/service_graphics/chauffeur.svg" alt="chauffeur logo" class="logo-md mb-sm">
                     <h3>Chauffeur Services</h3>
                 </a>
-                <a href="./">
+                <a href="./contact">
                     <img src="./images/service_graphics/reservation.svg" alt="reservation logo" class="logo-md mb-sm">
                     <h3>Reservations</h3>
                 </a>
-                <a href="./">
+                <a href="./contact">
                     <img src="./images/service_graphics/delivery.svg" alt="delivery logo" class="logo-md mb-sm">
                     <h3>Delivery Services</h3>
                 </a>
