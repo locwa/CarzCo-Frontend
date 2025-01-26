@@ -62,7 +62,7 @@
                 CarzCo membership provides premium perks that can be improve your experience with us, as well as our partners.
                 These perks include discounts, expedited or tailored services, and occasional free products and services.
             </p>
-            <x-buttons class="f-size-sm" height="md" width="lg">Learn More</x-buttons>
+            <x-buttons :isLink="true" linkTo="./contact" class="button-white" height="md" width="lg">Learn More</x-buttons>
         </section>
     </main>
 </x-layout>
