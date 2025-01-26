@@ -131,6 +131,20 @@
     margin-left: 0.5rem;
 }
 
+/* Margin right heights */
+.mr-xl{
+    margin-right: 4.5rem;
+}
+.mr-lg{
+    margin-right: 3.5rem;
+}
+.mr-md{
+    margin-right: 1.5rem;
+}
+.mr-sm{
+    margin-right: 0.5rem;
+}
+
 /* Margins */
 .m-none{
     margin: 0;
@@ -146,6 +160,10 @@
 .logo-xl{
     height: 15rem;
     width: 15rem;
+}
+.logo-lg{
+    height: 12rem;
+    width: 12rem;
 }
 .logo-md{
     height: 7rem;

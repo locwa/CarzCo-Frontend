@@ -1,9 +1,10 @@
 .service-container, .service-container-alt, .service-container-blk{
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 30vh;
-    padding: 3rem;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30vw;
+    height: 45vh;
+    padding: 3rem 10rem;
 }
 .service-container{
     text-align: left;
@@ -15,4 +16,7 @@
 .service-container-blk{
     background-color: #000000;
     text-align: end;
+}
+.service-description{
+    width: 50vw;
 }
