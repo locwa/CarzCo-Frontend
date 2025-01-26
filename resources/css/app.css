@@ -238,6 +238,22 @@ button{
     width: 10rem;
 }
 
+/* Button hover styling */
+button:hover{
+    cursor: pointer;
+    background-color: #919090;
+}
+
+/* Button background color */
+.button-black{
+    background-color: #000000;
+    color: #ffffff;
+}
+.button-white{
+    background-color: #ffffff;
+    color: #000000;
+}
+
 /* Navigation Bar */
 nav{
     background-color: #2d3748;
