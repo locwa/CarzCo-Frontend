@@ -39,11 +39,11 @@
                     <a href="./" class="f-size-md f-weight-light f-color-white">McLaren</a>
                 </div>
                 <div class="footer-columns">
-                    <h6 class="f-size-md f-color-white mb-sm">Services</h6>
-                    <a href="./" class="f-size-md f-weight-light f-color-white">Chauffeur Service</a>
-                    <a href="./" class="f-size-md f-weight-light f-color-white">Reservations</a>
-                    <a href="./" class="f-size-md f-weight-light f-color-white">Events</a>
-                    <a href="./" class="f-size-md f-weight-light f-color-white">CarzCo Memberships</a>
+                    <h6 class="f-size-md f-color-white mb-sm">Socials</h6>
+                    <a href="./" class="f-size-md f-weight-light f-color-white">Facebook</a>
+                    <a href="./" class="f-size-md f-weight-light f-color-white">Instagram</a>
+                    <a href="./" class="f-size-md f-weight-light f-color-white">Youtube</a>
+                    <a href="./" class="f-size-md f-weight-light f-color-white">Linkedin</a>
                 </div>
             </div>
         </div>
