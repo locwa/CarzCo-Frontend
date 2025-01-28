@@ -15,6 +15,7 @@
 
 <x-containers {{ $attributes->merge(['class' => $defaultClass]) }} width="{{ $width }}" height="{{ $height }}" :hasBorder="true" :isBorderRounded="true">
     <form action="POST" action="./contact" class="m-md contact-form">
+        @csrf
         <h1 class="mb-md">{{ $header }}</h1>
         <div class="info-field-container mb-md mt-sm">
             <div class="info-field">
