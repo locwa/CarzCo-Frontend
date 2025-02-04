@@ -4,6 +4,7 @@
 @import url('about.css');
 @import url('contact.css');
 @import url('services.css');
+@import url('fleet.css');
 *{
     margin: 0;
     font-family: "PP Right Grotesk";
