@@ -12,7 +12,11 @@ Route::get('about', function () {
 });
 
 Route::get('/fleet', function () {;
-    return view('fleet', ['fleet_list' => Fleet::all()]);
+    return view('fleet', ['fleet_list' => Fleet::where('status', 0)->get()]);
+});
+
+Route::get('/view-car/{id}', function ($id) {
+    return view('view-car');
 });
 
 Route::get('/services', function () {
