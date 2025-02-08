@@ -1,8 +1,8 @@
-<nav>
-    <a href="../components"><img src="./images/logo_main.svg" class="logo"></a>
-    <div class="nav-links">
-        <a href="./fleet" class="f-color-white f-size-md">Our Fleet</a>
-        <a href="./services" class="f-color-white f-size-md">Services</a>
-        <a href="./about" class="f-color-white f-size-md">About</a>
+<nav class="flex justify-between p-4 items-center">
+    <a href="./"><x-carzco-logo></x-carzco-logo></a>
+    <div class="flex gap-10 mr-6">
+        <a href="./fleet" class="dark:text-gray-100 text-lg ">Our Fleet</a>
+        <a href="./services" class="dark:text-gray-100 text-lg ">Services</a>
+        <a href="./about" class="dark:text-gray-100 text-lg ">About</a>
     </div>
 </nav>
