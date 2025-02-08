@@ -14,6 +14,10 @@
 @endphp
 
 <button class="mx-2 my-auto h-10 inline-flex items-center px-4 py-2 tracking-widest  focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 dark:focus:ring-offset-gray-800 transition ease-in-out duration-150" id="{{ $position }}Button" onclick="{{ $method }}">
-    <img src="../images/{{ $position }}-arrow.svg" alt="{{ $position }}">
+    @if($position === "right")
+        <x-right-arrow></x-right-arrow>
+    @else
+        <x-left-arrow></x-left-arrow>
+    @endif
 </button>
 
