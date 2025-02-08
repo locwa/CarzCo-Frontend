@@ -22,7 +22,7 @@
     <hr class="border-[#0f0f0f] dark:border-gray-100 pb-5 mx-32">
 
     <div class="px-64 m-8">
-        <p>{{ $car_details->value('description') }}</p>
+        <p class="whitespace-pre-wrap">{{ $car_details->value('description') }}</p>
     </div>
 
     <hr class="border-[#0f0f0f] dark:border-gray-100 pb-5">
