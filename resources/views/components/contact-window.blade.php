@@ -32,6 +32,6 @@
         </div>
         <label for="message" class="mb-sm f-weight-light" @required('true')>Message</label>
         <textarea name="message" rows="6" class="bg-gray-300 w-full rounded"></textarea>
-        <x-primary-button :insideContainer="true" type="submit" width="lg" class=" mx-48 my-4 flex justify-center">Send</x-primary-button>
+        <x-primary-button :inverted="true" type="submit" width="lg" class=" mx-48 my-4 flex justify-center">Send</x-primary-button>
     </form>
 </x-containers>
