@@ -6,7 +6,7 @@
     xmlns="http://www.w3.org/2000/svg"
     xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
     xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-    class="h-64 w-64 mb-10 ml-10"
+    class="h-64 w-64 m-5"
     version="1.1"
     viewBox="0 0 293.20159 41.78961"
     id="svg6"

@@ -1,6 +1,6 @@
 <svg version="1.1" id="Wappen" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
      xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 193.9 250"
-     style="enable-background:new 0 0 193.9 250;" xml:space="preserve" class="h-64 w-64 mb-10 ml-10">
+     style="enable-background:new 0 0 193.9 250;" xml:space="preserve" class="h-64 w-64 m-5">
 <style type="text/css">
     .st0{fill:url(#SVGID_1_);}
     .st1{fill:#B12B28;}

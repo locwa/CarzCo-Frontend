@@ -1,5 +1,5 @@
 <svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" viewBox="0 0 39.92 68.884998" id="svg11916" version="1.1" inkscape:version="0.91 r13725" sodipodi:docname="rolls royce.svg"
-    class="h-64 w-64 mb-10 ml-10">
+    class="h-64 w-64 m-5">
     <defs id="defs11918">
         <linearGradient id="linearGradient8238" spreadMethod="pad" gradientTransform="matrix(48.976706,-36.901363,-36.901363,-48.976706,317.90673,74.94339)" gradientUnits="userSpaceOnUse" y2="0" x2="1" y1="0" x1="0">
             <stop id="stop8240" offset="0" style="stop-opacity:1;stop-color:#c1c0c1"/>

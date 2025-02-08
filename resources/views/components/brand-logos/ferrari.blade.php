@@ -1,6 +1,6 @@
 <svg  version="1.1" xmlns="&ns_svg;" xmlns:xlink="&ns_xlink;" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
       viewBox="-0.169 -0.038 344 550" enable-background="new -0.169 -0.038 344 550" xml:space="preserve"
-        class="h-64 w-64 mb-10 ml-10">
+        class="h-64 w-64 m-5">
 <defs>
 </defs>
     <polyline fill-rule="evenodd" clip-rule="evenodd" fill="none" points="0,574.034 0,0 349.46,0.369 349.46,574.034 "/>
