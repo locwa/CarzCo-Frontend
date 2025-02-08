@@ -4,7 +4,6 @@
 ])
 
 @php
-    $defaultClass = "m-lg b-width-sm";
 
     // checks if component is used as normal element or popup window
     if($type === "popup"){
@@ -12,7 +11,7 @@
     }
 @endphp
 
-<x-containers {{ $attributes->merge(['class' => $defaultClass]) }} size="{{ $size }}">
+<x-containers {{ $attributes->merge(['class' => '']) }} size="{{ $size }}">
     <form action="POST" action="mailto:customers@carzco.com" class="w-2/4 flex flex-col">
         @csrf
         <h1 class="text-5xl font-bold text-center pb-10">{{ $header }}</h1>
