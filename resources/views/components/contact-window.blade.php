@@ -18,15 +18,15 @@
         <div class="flex flex-col items-center">
             <div class="flex flex-col w-full pb-5">
                 <label for="name" class="mb-1">Name:</label>
-                <input type="text" name="name" id="" class="bg-gray-300 w-full h-10 rounded" @required('true')>
+                <input type="text" name="name" id="" class="bg-gray-300 w-full h-10 rounded p-2" @required('true')>
             </div>
             <div class="flex flex-col w-full pb-5">
                 <label for="name" class="mb-1">Email</label>
-                <input type="email" name="email" id="" class="bg-gray-300 w-full h-10 rounded" @required('true')>
+                <input type="email" name="email" id="" class="bg-gray-300 w-full h-10 rounded p-2" @required('true')>
             </div>
             <div class="flex flex-col w-full pb-5">
                 <label for="phone" class="mb-1">Phone</label>
-                <input type="number" name="phone" id="" class="bg-gray-300 w-full h-10 rounded" @required('true')>
+                <input type="number" name="phone" id="" class="bg-gray-300 w-full h-10 rounded p-2" @required('true')>
             </div>
         </div>
         <label for="message" class="mb-sm f-weight-light" @required('true')>Message</label>
