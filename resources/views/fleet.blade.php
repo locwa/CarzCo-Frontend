@@ -1,8 +1,11 @@
 <x-app-layout>
     <x-slot:title>Our Cars | CarzCo</x-slot:title>
     <div class="h-[100vh] flex gap-10 p-10">
-        <div class="dark:bg-[#1f1f1f] w-1/4 rounded-[20px]"></div>
-        <div class="flex gap-10">
+        <div class="dark:bg-[#1f1f1f] w-1/4 rounded-[20px]">
+
+        </div>
+
+        <div class="flex flex-wrap gap-10">
 
             @foreach($fleet_list as $list)
                 <div class="w-80 h-3/5 p-4 dark:bg-[#1f1f1f] rounded-[20px]">
@@ -26,7 +29,9 @@
                 </div>
             @endforeach
         </div>
+
     </div>
+
 </x-app-layout>
 
 <script>
