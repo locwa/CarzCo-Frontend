@@ -8,7 +8,7 @@
             <x-primary-button class="mb-10">Contact Us</x-primary-button>
         </a>
     </div>
-    <hr class="mx-32 my-10">
+    <hr class="mx-32 my-10 border-[#0f0f0f] dark:border-gray-100">
     <div class="flex flex-col items-center px-10">
         <h1 class="text-5xl font-extrabold text-center pt-10">Reservations</h1>
         <h3 class="pb-10">Effortlessly book your dream driving experience with CarzCo's convenient reservation system.</h3>
@@ -17,7 +17,7 @@
             <x-primary-button class="mb-10">Contact Us</x-primary-button>
         </a>
     </div>
-    <hr class="mx-32 my-10">
+    <hr class="mx-32 my-10 border-[#0f0f0f] dark:border-gray-100">
     <div class="flex flex-col items-center px-10 text-lg">
         <h1 class="text-5xl font-extrabold text-center px-10">Events</h1>
         <h3 class="pb-10 text-md">Elevate your special event with a touch of automotive flair</h3>
@@ -31,7 +31,7 @@
             <x-primary-button class="mb-10">Contact Us</x-primary-button>
         </a>
     </div>
-    <hr class="mx-32 my-10">
+    <hr class="mx-32 my-10 border-[#0f0f0f] dark:border-gray-100">
     <div class="flex flex-col items-center px-10 text-lg">
         <h1 class="text-5xl font-extrabold text-center pt-10">CarzCo Memberships</h1>
         <h3 class="pb-10">Unlock exclusive benefits and rewards with a CarzCo Membership.</h3>
@@ -40,4 +40,5 @@
             <x-primary-button class="mb-10">Contact Us</x-primary-button>
         </a>
     </div>
+    <hr class="border-[#0f0f0f] dark:border-gray-100 pb-5">
 </x-app-layout>

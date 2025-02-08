@@ -7,4 +7,5 @@
             <x-slot:header>Contact Us</x-slot:header>
         </x-contact-window>
     </div>
+    <hr class="border-[#0f0f0f] dark:border-gray-100 pb-5">
 </x-app-layout>

@@ -10,7 +10,7 @@
         each meticulously maintained and ready to unleash its full potential on the open road.
     </p>
 
-    <hr class="my-10 mx-32">
+    <hr class="my-10 mx-32 border-[#0f0f0f] dark:border-gray-100">
 
     <div>
         <h4 class="text-5xl font-extrabold text-center">Our Mission:</h4>
@@ -39,7 +39,7 @@
         </div>
     </div>
 
-    <hr class="my-10 mx-32">
+    <hr class="my-10 mx-32 border-[#0f0f0f] dark:border-gray-100">
 
     <div>
         <h4 class="text-5xl font-extrabold text-center">Why Choose CarzCo:</h4>
@@ -63,4 +63,5 @@
             </x-containers>
         </div>
     </div>
+    <hr class="border-[#0f0f0f] dark:border-gray-100 pb-5">
 </x-app-layout>
