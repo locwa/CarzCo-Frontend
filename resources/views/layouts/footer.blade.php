@@ -4,10 +4,10 @@
         <div class="flex gap-20">
             <div class="flex flex-col text-[#0f0f0f] dark:text-gray-100">
                 <h6 class="text-3xl font-extrabold pb-2">CarzCo</h6>
-                <a href="./fleet" class="text-xl py-1 hover:text-gray-400">Our Fleet</a>
-                <a href="./services" class="text-xl py-1 hover:text-gray-400">Services</a>
-                <a href="./about" class="text-xl py-1 hover:text-gray-400">About Us</a>
-                <a href="./contact" class="text-xl py-1 hover:text-gray-400">Contact Us</a>
+                <a href="{{route('fleet')}}" class="text-xl py-1 hover:text-gray-400">Our Fleet</a>
+                <a href="{{route('services')}}" class="text-xl py-1 hover:text-gray-400">Services</a>
+                <a href="{{route('about')}}" class="text-xl py-1 hover:text-gray-400">About Us</a>
+                <a href="{{route('contact')}}" class="text-xl py-1 hover:text-gray-400">Contact Us</a>
             </div>
             <div class="flex flex-col text-[#0f0f0f] dark:text-gray-100">
                 <h6 class="text-3xl font-extrabold pb-2">Socials</h6>
