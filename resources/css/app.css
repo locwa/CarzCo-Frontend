@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.hero{
+    background: linear-gradient(#000000aa, #000000aa), url("/public/images/hero_bg.avif");
+    object-fit: none;
+    background-position-y: 45%;
+    background-position-x: 50%;
+}
