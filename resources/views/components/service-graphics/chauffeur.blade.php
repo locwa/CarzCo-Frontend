@@ -1,6 +1,6 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
      viewBox="0 0 300.001 300.001" xml:space="preserve"
-     class="bi bi-file-earmark-check fill-black dark:fill-white h-64 w-64">
+     class="bi bi-file-earmark-check fill-black dark:fill-white h-56 w-56">
 <g>
     <g>
         <g>
