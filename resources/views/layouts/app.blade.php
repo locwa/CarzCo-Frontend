@@ -22,7 +22,7 @@
     @include('layouts.navigation')
 
     <!-- Page Content -->
-    <main>
+    <main class="text-[#0f0f0f] dark:text-gray-100">
         {{ $slot }}
     </main>
 
