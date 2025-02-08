@@ -65,5 +65,5 @@
             <x-primary-button>Learn More</x-primary-button>
         </a>
     </section>
-    <hr class="mx-32 dark:border-[#0f0f0f] border-gray-100">
+    <hr class="border-[#0f0f0f] dark:border-gray-100 pb-5">
 </x-app-layout>
