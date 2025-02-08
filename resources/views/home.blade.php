@@ -13,24 +13,24 @@
         <p class="text-lg font-extralight text-center p-6 text-[#0f0f0f] dark:text-gray-100">Discover some of the most popular brands that we carry</p>
         <div class="flex flex-col items-center my-10">
             <div class="flex mb-20">
-                <a href="./fleet/rolls-royce" class="home-brand-logos hover:bg-[#1C191733] rounded">
+                <a href="./fleet/rolls-royce" class="home-brand-logos hover:bg-[#1f1f1f55] rounded-[20px]">
                     <x-brand-logos.rolls-royce></x-brand-logos.rolls-royce>
                 </a>
-                <a href="./fleet/bentley" class="home-brand-logos hover:bg-[#1C191733] rounded">
+                <a href="./fleet/bentley" class="home-brand-logos hover:bg-[#1f1f1f55] rounded-[20px]">
                     <x-brand-logos.bentley></x-brand-logos.bentley>
                 </a>
-                <a href="./fleet/ferrari" class="home-brand-logos hover:bg-[#1C191733] rounded">
+                <a href="./fleet/ferrari" class="home-brand-logos hover:bg-[#1f1f1f55] rounded-[20px]">
                     <x-brand-logos.ferrari></x-brand-logos.ferrari>
                 </a>
             </div>
             <div class="flex">
-                <a href="./fleet/lamborghini" class="home-brand-logos hover:bg-[#1C191733] rounded">
+                <a href="./fleet/lamborghini" class="home-brand-logos hover:bg-[#1f1f1f55] rounded-[20px]">
                     <x-brand-logos.lamborghini></x-brand-logos.lamborghini>
                 </a>
-                <a href="./fleet/mclaren" class="home-brand-logos hover:bg-[#1C191733] rounded">
+                <a href="./fleet/mclaren" class="home-brand-logos hover:bg-[#1f1f1f55] rounded-[20px]">
                     <x-brand-logos.mclaren></x-brand-logos.mclaren>
                 </a>
-                <a href="./fleet/porsche" class="home-brand-logos hover:bg-[#1C191733] rounded">
+                <a href="./fleet/porsche" class="home-brand-logos hover:bg-[#1f1f1f55] rounded-[20px]">
                     <x-brand-logos.porsche class="object-contain"></x-brand-logos.porsche>
                 </a>
             </div>
