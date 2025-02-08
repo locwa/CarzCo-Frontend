@@ -15,6 +15,10 @@ Route::get('/fleet', function () {;
     return view('fleet', ['fleet_list' => Fleet::where('status', 0)->get()]);
 })->name('fleet');
 
+Route::get('/fleet/{id}', function ($id) {;
+    return view('fleet', ['fleet_list' => Fleet::where('make', $id)->get()]);
+})->name('fleet.{id}');
+
 Route::get('/view-car/{id}', function ($id) {
     return view('view-car', ['car_details' => Fleet::where('id', $id)->get()]);
 });
