@@ -1,14 +1,14 @@
 <x-app-layout>
     <x-slot:title>Our Cars | CarzCo</x-slot:title>
-    <div class="h-[100vh] flex gap-10 p-10">
-        <div class="dark:bg-[#1f1f1f] w-1/4 rounded-[20px]">
+    <div class=" flex gap-10 p-10">
+        <div class=" max-h-[80vh] dark:bg-[#1f1f1f] w-1/4 rounded-[20px]">
 
         </div>
 
         <div class="flex flex-wrap gap-10">
 
             @foreach($fleet_list as $list)
-                <div class="w-80 h-3/5 p-4 dark:bg-[#1f1f1f] rounded-[20px]">
+                <div class="w-80 h-[55vh] flex flex-col justify-center p-4 dark:bg-[#1f1f1f] rounded-[20px]">
                     <img src="./storage/cars/{{ $list->photo_file_header }}0.jpg" alt="car picture" class="object-cover rounded-[15px] mb-4 h-48 w-auto">
                     <p class="text-md">{{ $list->year }}</p>
                     <h4 class="text-3xl font-extrabold">{{ $list->make }}</h4>
@@ -31,6 +31,8 @@
         </div>
 
     </div>
+
+    <hr class="border-[#0f0f0f] dark:border-gray-100 pb-5">
 
 </x-app-layout>
 
