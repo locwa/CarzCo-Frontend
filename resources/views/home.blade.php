@@ -12,7 +12,7 @@
         <h1 class="text-5xl font-extrabold pt-8 text-center text-[#0f0f0f] dark:text-gray-100">Popular Exotic and Luxury Car Brands</h1>
         <p class="text-lg font-extralight text-center p-6 text-[#0f0f0f] dark:text-gray-100">Discover some of the most popular brands that we carry</p>
         <div class="flex flex-col items-center my-10">
-            <div class="flex mb-20">
+            <div class="flex flex-wrap justify-center mb-20">
                 <a href="./fleet/rolls-royce" class="home-brand-logos hover:bg-[#1f1f1f55] rounded-[20px]">
                     <x-brand-logos.rolls-royce></x-brand-logos.rolls-royce>
                 </a>
@@ -23,7 +23,7 @@
                     <x-brand-logos.ferrari></x-brand-logos.ferrari>
                 </a>
             </div>
-            <div class="flex">
+            <div class="flex flex-wrap justify-center">
                 <a href="./fleet/lamborghini" class="home-brand-logos hover:bg-[#1f1f1f55] rounded-[20px]">
                     <x-brand-logos.lamborghini></x-brand-logos.lamborghini>
                 </a>
@@ -39,7 +39,7 @@
     <hr class="mx-32 border-[#0f0f0f] dark:border-gray-100">
     <section class="my-10">
         <h1 class="text-5xl font-extrabold pt-10 pb-20 text-center text-[#0f0f0f] dark:text-gray-100">Services That We Offer</h1>
-        <div class="flex justify-center gap-32">
+        <div class="flex flex-wrap justify-center gap-32">
             <a href="./contact" class="flex flex-col items-center">
                 <x-service-graphics.chauffeur></x-service-graphics.chauffeur>
                 <h3 class="text-xl font-medium text-center p-6 text-[#0f0f0f] dark:text-gray-100">Chauffeur Services</h3>

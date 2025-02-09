@@ -8,7 +8,7 @@
         <div class="flex flex-wrap gap-10 justify-center">
 
             @foreach($fleet_list as $list)
-                <div class="w-80 h-[55vh] flex flex-col justify-center p-4  border-[#0f0f0f] border-[2px] dark:bg-[#1f1f1f] rounded-[20px]">
+                <div class="w-80 h-[65vh] flex flex-col justify-center p-4  border-[#0f0f0f] border-[2px] dark:bg-[#1f1f1f] rounded-[20px]">
                     <img src="{{ route('home')."/storage/cars/". $list->photo_file_header }}0.jpg" alt="car picture" class="object-cover rounded-[15px] mb-4 h-48 w-auto border-[2px] border-[#0f0f0f] dark:border-gray-100">
                     <p class="text-md">{{ $list->year }}</p>
                     <h4 class="text-3xl font-extrabold">{{ $list->make }}</h4>

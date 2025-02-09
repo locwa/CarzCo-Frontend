@@ -1,7 +1,7 @@
-<footer class="px-20 pt-10 pb-5">
-    <div class="flex justify-between">
-        <x-carzco-logo></x-carzco-logo>
-        <div class="flex gap-20">
+<footer class="px-10 md:px-20 pt-10 pb-5 ">
+    <div class="flex justify-center md:justify-between">
+        <x-carzco-logo class="hidden md:block"></x-carzco-logo>
+        <div class="flex flex-wrap gap-20">
             <div class="flex flex-col text-[#0f0f0f] dark:text-gray-100">
                 <h6 class="text-3xl font-extrabold pb-2">CarzCo</h6>
                 <a href="{{route('fleet')}}" class="text-xl py-1 hover:text-gray-400">Our Fleet</a>
@@ -16,7 +16,7 @@
                 <a href="./" class="text-xl py-1 hover:text-gray-400">Youtube</a>
                 <a href="./" class="text-xl py-1 hover:text-gray-400">Linkedin</a>
             </div>
-            <div class="flex flex-col text-[#0f0f0f] dark:text-gray-100">
+            <div class="flex flex-col text-[#0f0f0f] dark:text-gray-100 ">
                 <h6 class="text-3xl font-extrabold pb-2">Popular Brands</h6>
                 <a href="{{ route('fleet.filter', ['id' => 'lamborghini']) }}" class="text-xl py-1 hover:text-gray-400">Lamborghini</a>
                 <a href="{{ route('fleet.filter', ['id' => 'rolls-royce']) }}" class="text-xl py-1 hover:text-gray-400">Rolls Royce</a>

@@ -15,7 +15,7 @@
     <div>
         <h4 class="text-5xl font-extrabold text-center">Our Mission:</h4>
         <p class="text-md p-2 text-center font-extralight">To elevate the driving experience beyond the ordinary. We strive to:</p>
-        <div class="flex justify-center gap-10 m-10">
+        <div class="flex justify-center flex-wrap gap-10 m-10">
             <x-containers>
                 <x-slot:title>Offer Unparalleled selection</x-slot:title>
                 <p class="text-lg text-center">From sleek sports cars and powerful SUVs to elegant
@@ -43,7 +43,7 @@
 
     <div>
         <h4 class="text-5xl font-extrabold text-center">Why Choose CarzCo:</h4>
-        <div class="flex justify-center gap-10 m-10">
+        <div class="flex justify-center flex-wrap gap-10 m-10">
             <x-containers>
                 <x-slot:title>Unforgettable memories</x-slot:title>
                 <p class="text-lg text-center">Create lasting memories with unforgettable driving experiences.</p>
