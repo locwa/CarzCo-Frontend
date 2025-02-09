@@ -16,12 +16,12 @@ Route::get('/fleet', function () {;
 })->name('fleet');
 
 Route::get('/fleet/{id}', function ($id) {;
-    return view('fleet', ['fleet_list' => Fleet::where('make', $id)->get()]);
-})->name('fleet.{id}');
+    return view('fleet', ['fleet_list' => Fleet::where('make', str_replace('-', ' ', $id))->get()]);
+})->name('fleet.filter');
 
 Route::get('/view-car/{id}', function ($id) {
     return view('view-car', ['car_details' => Fleet::where('id', $id)->get()]);
-});
+})->name('view-car');
 
 Route::get('/services', function () {
     return view('services');

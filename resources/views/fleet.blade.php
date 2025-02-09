@@ -23,7 +23,7 @@
                         </div>
                     </div>
 
-                    <a href="./view-car/{{ $list->id }}">
+                    <a href="{{ route('view-car', ['id' => $list->id]) }}">
                         <x-primary-button size="md" class="my-4">View Car</x-primary-button>
                     </a>
                 </div>

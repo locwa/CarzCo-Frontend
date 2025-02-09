@@ -18,11 +18,11 @@
             </div>
             <div class="flex flex-col text-[#0f0f0f] dark:text-gray-100">
                 <h6 class="text-3xl font-extrabold pb-2">Popular Brands</h6>
-                <a href="./fleet/lamborghini" class="text-xl py-1 hover:text-gray-400">Lamborghini</a>
-                <a href="./fleet/rolls-royce" class="text-xl py-1 hover:text-gray-400">Rolls Royce</a>
-                <a href="./fleet/ferrari" class="text-xl py-1 hover:text-gray-400">Ferrari</a>
-                <a href="./fleet/porsche" class="text-xl py-1 hover:text-gray-400">Porsche</a>
-                <a href="./fleet/mclaren" class="text-xl py-1 hover:text-gray-400">McLaren</a>
+                <a href="{{ route('fleet.filter', ['id' => 'lamborghini']) }}" class="text-xl py-1 hover:text-gray-400">Lamborghini</a>
+                <a href="{{ route('fleet.filter', ['id' => 'rolls-royce']) }}" class="text-xl py-1 hover:text-gray-400">Rolls Royce</a>
+                <a href="{{ route('fleet.filter', ['id' => 'ferrari']) }}" class="text-xl py-1 hover:text-gray-400">Ferrari</a>
+                <a href="{{ route('fleet.filter', ['id' => 'porsche']) }}" class="text-xl py-1 hover:text-gray-400">Porsche</a>
+                <a href="{{ route('fleet.filter', ['id' => 'mclaren']) }}" class="text-xl py-1 hover:text-gray-400">McLaren</a>
             </div>
         </div>
     </div>
