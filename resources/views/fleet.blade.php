@@ -21,6 +21,7 @@
                             <p class="text-md">Rent Price:</p>
                             <h5 class="text-2xl font-bold">{{ numfmt_format_currency(numfmt_create('en_US', NumberFormatter::CURRENCY), $list->rent_price,"USD") }}</h5>
                         </div>
+                        <p class="text-md">ID: {{ $list->id }}</p>
                     </div>
 
                     <a href="{{ route('view-car', ['id' => $list->id]) }}">
