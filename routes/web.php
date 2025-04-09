@@ -12,13 +12,14 @@ Route::get('about', function () {
     return view('about');
 })->name('about');
 
-Route::get('/fleet', function () {;
+Route::get('/fleet', function () {
     $disk = Storage::disk('gcs');
     return view('fleet', ['fleet_list' => Fleet::where('status', 0)->get(), 'disk' => $disk]);
 })->name('fleet');
 
-Route::get('/fleet/{id}', function ($id) {;
-    return view('fleet', ['fleet_list' => Fleet::where('make', str_replace('-', ' ', $id))->get()]);
+Route::get('/fleet/{id}', function ($id) {
+    $disk = Storage::disk('gcs');
+    return view('fleet', ['fleet_list' => Fleet::where('make', str_replace('-', ' ', $id))->get(), 'disk' => $disk]);
 })->name('fleet.filter');
 
 Route::get('/view-car/{id}', function ($id) {
