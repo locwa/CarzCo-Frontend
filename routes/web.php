@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Models\Fleet;
+use Illuminate\Support\Facades\Storage;
 
 Route::get('/', function () {
     return view('home');
@@ -12,7 +13,8 @@ Route::get('about', function () {
 })->name('about');
 
 Route::get('/fleet', function () {;
-    return view('fleet', ['fleet_list' => Fleet::where('status', 0)->get()]);
+    $disk = Storage::disk('gcs');
+    return view('fleet', ['fleet_list' => Fleet::where('status', 0)->get(), 'disk' => $disk]);
 })->name('fleet');
 
 Route::get('/fleet/{id}', function ($id) {;
