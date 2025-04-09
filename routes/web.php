@@ -23,7 +23,8 @@ Route::get('/fleet/{id}', function ($id) {
 })->name('fleet.filter');
 
 Route::get('/view-car/{id}', function ($id) {
-    return view('view-car', ['car_details' => Fleet::where('id', $id)->get()]);
+    $disk = Storage::disk('gcs');
+    return view('view-car', ['car_details' => Fleet::where('id', $id)->get(), 'disk' => $disk]);
 })->name('view-car');
 
 Route::get('/services', function () {

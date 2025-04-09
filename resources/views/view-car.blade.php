@@ -1,6 +1,6 @@
 <x-app-layout>
     <x-slot:title>{{ $car_details->value('year') ." ". $car_details->value('make') ." ". $car_details->value('model') ." | CarzCo"  }}</x-slot:title>
-    <x-image-carousel photoFileHeader="{{ $car_details->value('photo_file_header') }}" photoCount="{{ $car_details->value('photo_count') }}" carInfo="{{ $car_details->value('year'). ' '. $car_details->value('make'). ' '. $car_details->value('model') }}"></x-image-carousel>
+    <x-image-carousel photoFileHeader="{{ $disk->url($car_details->value('photo_file_header')) }}" photoCount="{{ $car_details->value('photo_count') }}" carInfo="{{ $car_details->value('year'). ' '. $car_details->value('make'). ' '. $car_details->value('model') }}"></x-image-carousel>
 
     <hr class=" border-[#0f0f0f] dark:border-gray-100 mt-5">
 
