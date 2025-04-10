@@ -1,13 +1,29 @@
 @props([
     'photoFileHeader',
     'photoCount',
-    'carInfo'
+    'carInfo',
+    'photoExtension' => "png"
 ])
+<div class="mb-5 flex flex-col items-center" id="imagesContainer">
+    <img id="carPhoto" class="h-72 w-auto md:h-auto md:w-6/12 flex justify-center object-center md:object-position-y-71" src="{{ $photoFileHeader . '0' . '.jpg'}}" alt="{{ $carInfo }}">
+    <div class="flex my-6 justify-between items-start w-[90vw]">
+        <div>
+            @isset($heading)
+                {{ $heading }}
+            @endisset
+            @isset($details)
+                {{ $details }}
+            @endisset
+        </div>
 
-<div class="mb-10 flex justify-center" id="imagesContainer">
-    <x-img-nav-button imgCount="{{ $photoCount }}" position="left" imgHeader="{{ $photoFileHeader }}"></x-img-nav-button>
-        <img id="carPhoto" class="h-1/3 w-2/4" src="{{ $photoFileHeader . '0' . '.jpg'}}" alt="{{ $carInfo }}">
-    <x-img-nav-button imgCount="{{ $photoCount }}" position="right" imgHeader="{{ $photoFileHeader }}"></x-img-nav-button>
+        <div>
+            <div class="flex justify-end mb-7">
+                <x-img-nav-button imgCount="{{ $photoCount }}" position="left" imgHeader="{{ $photoFileHeader }}"></x-img-nav-button>
+                <x-img-nav-button imgCount="{{ $photoCount }}" position="right" imgHeader="{{ $photoFileHeader }}"></x-img-nav-button>
+            </div>
+
+        </div>
+    </div>
 </div>
 
 <script>
